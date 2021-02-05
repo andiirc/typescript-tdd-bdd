@@ -1,0 +1,17 @@
+{
+  "author": "Anderson Rodriguez",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "t:cucumber": "tsc && cucumber-js ./__tests__/specs/ -r ./__tests__/specs/steps/",
+    "t:unit": "jest"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^4.0.1",
+    "@types/jest": "^26.0.20",
+    "cucumber": "^4.2.1",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.0",
+    "ts-node": "^9.0.0"
+  }
+}
