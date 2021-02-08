@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "t:cucumber": "tsc && cucumber-js ./__tests__/specs/ -r ./__tests__/specs/steps/",
-    "t:unit": "jest"
+    "t:unit": "jest --testPathPattern=./__tests__/unit/"
   },
   "devDependencies": {
     "@types/cucumber": "^4.0.1",

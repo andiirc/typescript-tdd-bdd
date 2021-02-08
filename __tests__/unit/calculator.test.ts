@@ -1,8 +1,8 @@
-import { Calculator } from "../../../src/app-calculator"
+import { Calculator } from "../../src/app-calculator"
 
 describe("Calculator ", () => {
 
-  it("addition", () => {
+it("addition", () => {
 
     let calculator = new Calculator(1,1)
 
